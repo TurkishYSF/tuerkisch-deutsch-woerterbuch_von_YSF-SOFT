@@ -31,6 +31,12 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "das Pronomen",
+        untertitel: "(pʁoˈnoːmən), Neutrum",
+        bedeutungen: "zamir, adıl",
+        sprache: "de"
+    },
+    {
         titel: "das Thema",
         untertitel: "('te:ma), Substantiv, Neutrum, -n, von lateinisch thema",
         bedeutungen: "tema, konu",
@@ -157,9 +163,45 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "du",
+        untertitel: "Pronomen",
+        bedeutungen: "sen",
+        sprache: "de"
+    },
+    {
+        titel: "er",
+        untertitel: "(e:ɐ̯), Pronomen",
+        bedeutungen: "o [Pronomen]",
+        sprache: "de"
+    },
+    {
+        titel: "es",
+        untertitel: "(ɛs), Pronomen",
+        bedeutungen: "o [Pronomen]",
+        sprache: "dilKodu"
+    },
+    {
+        titel: "ich",
+        untertitel: "(ɪç), Pronomen",
+        bedeutungen: "ben [Pronomen]",
+        sprache: "de"
+    },
+    {
         titel: "ja",
         untertitel: "(ja:)",
         bedeutungen: "evet",
+        sprache: "de"
+    },
+    {
+        titel: "sie",
+        untertitel: "(zi:), Pronomen",
+        bedeutungen: "o [Pronomen]",
+        sprache: "dilKodu"
+    },
+    {
+        titel: "schreiben",
+        untertitel: "(ˈʃʁaɪ̯bn̩), Verb, haben geschrieben",
+        bedeutungen: "yazmak",
         sprache: "de"
     },
 
@@ -181,10 +223,35 @@ var datas = [
         sprache: "tr"
     },
     {
+        titel: "adıl",
+        untertitel: "Substantiv",
+        bedeutungen: "das Pronomen",
+        sprache: "tr"
+    },
+    {
         titel: "alfabe",
         untertitel: "(aɫfabe), Substantiv, von französisch alphabet",
         bedeutungen: "das Abc, das Alphabet",
         beispiele: "Türkçe latin <span class='vurgu'>alfabesini</span> kullanır.",
+        sprache: "tr"
+    },
+    {
+        titel: "ben",
+        untertitel: "Pronomen",
+        bedeutungen: "ich",
+        sprache: "tr"
+    },
+    {
+        titel: "ben",
+        untertitel: "Substantiv",
+        bedeutungen: "das Muttermal",
+        sprache: "tr"
+    },
+    {
+        titel: "betik",
+        untertitel: "Substantiv, -ği",
+        bedeutungen: "das Buch",
+        beispiele: "<span class='vurgu'>Betik</span> okumayı severim. (Ich lese gern <span class='vurgu'>Bücher</span>.)",
         sprache: "tr"
     },
     {
@@ -226,7 +293,39 @@ var datas = [
     {
         titel: "hava kirliliği",
         untertitel: "Substantiv, von hava und kirlilik",
-        bedeutungen: "anlam",
+        bedeutungen: "die Luftverschmutzung",
+        sprache: "tr"
+    },
+    {
+        titel: "insan",
+        untertitel: "Substantiv, aus dem arabischen insān",
+        bedeutungen: "der Mensch",
+        sprache: "tr"
+    },
+    {
+        titel: "kitap",
+        untertitel: "Substantiv, -bı, aus dem arabischen kitāb",
+        bedeutungen: "das Buch, heiliges Buch",
+        beispiele: "<span class='vurgu'>Kitap</span> okumayı severim. (Ich lese gern <span class='vurgu'>Bücher</span>.)",
+        sprache: "tr"
+    },
+    {
+        titel: "o",
+        untertitel: "Adjektiv",
+        bedeutungen: "der/die/das dort",
+        sprache: "tr"
+    },
+    {
+        titel: "o",
+        untertitel: "(o:), Interjektion",
+        bedeutungen: "oh",
+        beispiele: "<span class='vurgu'>O</span>, ne güzel! (<span class='vurgu'>Oh</span>, wie schön!)",
+        sprache: "tr"
+    },
+    {
+        titel: "o",
+        untertitel: "Pronomen, -nu",
+        bedeutungen: "er/sie/es",
         sprache: "tr"
     },
     {
@@ -236,9 +335,28 @@ var datas = [
         sprache: "tr"
     },
     {
+        titel: "sen",
+        untertitel: "Pronomen",
+        bedeutungen: "du",
+        sprache: "tr"
+    },
+    {
         titel: "sipariş",
         untertitel: "(sipa:riş), Substantiv, von persisch sipāriş",
         bedeutungen: "der Auftrag, die Bestellung",
+        sprache: "tr"
+    },
+    {
+        titel: "sözlük",
+        untertitel: "Substantiv, -ğü",
+        bedeutungen: "das Wörterbuch",
+        sprache: "tr"
+    },
+    {
+        titel: "su",
+        untertitel: "Substantiv",
+        bedeutungen: "das Wasser",
+        beispiele: "<span class='vurgu'>Su</span> içiyorum. (Ich trinke <span class='vurgu'>Wasser</span>.)",
         sprache: "tr"
     },
     {
@@ -256,10 +374,22 @@ var datas = [
         sprache: "tr"
     },
     {
+        titel: "yazmak",
+        untertitel: "Verb, -ar",
+        bedeutungen: "schreiben",
+        sprache: "tr"
+    },
+    {
         titel: "yılan balığı",
         untertitel: "Substantiv, von yılan und balık",
         bedeutungen: "der Aal",
         beispiele: "O çok büyük bir <span class='vurgu'>yılan balığı</span> yakalamıştı.",
+        sprache: "tr"
+    },
+    {
+        titel: "zamir",
+        untertitel: "Substantiv, aus dem arabischen żamīr",
+        bedeutungen: "das Pronomen",
         sprache: "tr"
     }
 
@@ -361,6 +491,9 @@ function search() {
     for (var i = 0; i < words.length; i++) {
         var word = words[i].getElementsByClassName("details")[0].getElementsByTagName("p")[0].innerText.toLowerCase();
         if (input === "@"){
+            words[i].style.display = "block";
+        }
+        else if (input === "o" && word.startsWith(input)) {
             words[i].style.display = "block";
         }
         else if (input.length > 1 && word.includes(input)) {
