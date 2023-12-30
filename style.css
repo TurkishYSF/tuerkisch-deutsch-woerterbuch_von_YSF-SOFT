@@ -1,0 +1,101 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0vh;
+    background: blueviolet;
+}
+
+.wrapper {
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.wrapper header {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper .search {
+    margin: 30px 0 15px;
+    position: relative;
+}
+
+.search input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    height: 50px;
+    width: 94%;
+    outline: none;
+    padding: 0 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.titel {
+    color: blue;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.baslik {
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.untertitel {
+    color: gray;
+    font-style: italic;
+}
+
+.wrapper ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.inhalt {
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    border-left: 5px solid lightblue;
+}
+
+.beispiele {
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    border-left: 5px solid lightblue;
+}
+
+.icerik {
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    border-left: 5px solid orange;
+}
+
+.ornekler {
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    border-left: 5px solid orange;
+}
+
+.vurgu {
+    font-style: italic;
+}
+
+.footer {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
