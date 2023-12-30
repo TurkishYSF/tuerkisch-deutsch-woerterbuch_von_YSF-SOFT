@@ -1,9 +1,27 @@
 var datas = [
     {
+        titel: "das Aas",
+        untertitel: "(a:s), Substantiv, Neutrum, -e/Äser",
+        bedeutungen: "leş",
+        sprache: "de"
+    },
+    {
         titel: "das Alphabet",
         untertitel: "(alfa'be:t), Substantiv, Neutrum, -e, von kirchenlateinisch alphabētum",
         bedeutungen: "alfabe, abece",
         beispiele: "Die deutsche Schrift verwendet das lateinische <span class='vurgu'>Alphabet</span>.",
+        sprache: "de"
+    },
+    {
+        titel: "das Buch",
+        untertitel: "(bu:x), Substantiv, Neutrum, Bücher",
+        bedeutungen: "kitap, betik",
+        sprache: "de"
+    },
+    {
+        titel: "das Gespräch",
+        untertitel: "(ɡə'ʃpʁɛ:ç), Substantiv, Neutrum, -e",
+        bedeutungen: "konuşma, görüşme",
         sprache: "de"
     },
     {
@@ -16,6 +34,18 @@ var datas = [
         titel: "das Thema",
         untertitel: "('te:ma), Substantiv, Neutrum, -n, von lateinisch thema",
         bedeutungen: "tema, konu",
+        sprache: "de"
+    },
+    {
+        titel: "das Wort",
+        untertitel: "(vɔʁt), Substantiv, Neutrum, Wörter",
+        bedeutungen: "sözcük, kelime; söz",
+        sprache: "de"
+    },
+    {
+        titel: "das Wörterbuch",
+        untertitel: "(ˈvœʁtɐˌbu:x), Substantiv, Neutrum, Wörterbücher",
+        bedeutungen: "sözlük",
         sprache: "de"
     },
     {
@@ -54,13 +84,6 @@ var datas = [
         sprache: "de"
     },
     {
-        titel: "başlık",
-        untertitel: "ayrıntı",
-        bedeutungen: "anlam",
-        beispiele: "örnek",
-        sprache: "de"
-    },
-    {
         titel: "der Mensch",
         untertitel: "(mɛnʃ), Substantiv, männlich, -en",
         bedeutungen: "insan, kişi",
@@ -81,10 +104,22 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "die Ausbildung",
+        untertitel: "(ˈaʊ̯sˌbɪldʊŋ), Substantib, weiblich, -en",
+        bedeutungen: "eğitim, öğrenim",
+        sprache: "de"
+    },
+    {
         titel: "die Bestellung",
         untertitel: "(bəˈʃtɛlʊŋ), Substantiv, weiblich, -en",
         bedeutungen: "sipariş",
         beispiele: "Ich habe vor zwei Wochen eine <span class='vurgu'>Bestellung</span> über 2000 paar Socken aufgegeben. (İki hafta önce 2000 çift çorap siparişi verdim.)",
+        sprache: "de"
+    },
+    {
+        titel: "die Kommunikation",
+        untertitel: "(kɔmunikaˈt͡si̯oːn), Substantiv, weiblich, -en",
+        bedeutungen: "iletişim, haberleşme",
         sprache: "de"
     },
     {
@@ -96,9 +131,15 @@ var datas = [
     },
     {
         titel: "die Luftverschmutzung",
-        untertitel: "(ˈlʊftfɛɐ̯ˌʃmʊt͡sʊŋ), Substantiv, weiblich, -en",
+        untertitel: "('lʊftfɛɐ̯ˌʃmʊt͡sʊŋ), Substantiv, weiblich, -en",
         bedeutungen: "hava kirliliği",
         beispiele: "<span class='vurgu'>Luftverschmutzung</span> sollte unter hohe Strafen gestellt werden.",
+        sprache: "de"
+    },
+    {
+        titel: "die Sprache",
+        untertitel: "('ʃpʁa:xə), Substantiv, weiblich, -n",
+        bedeutungen: "dil",
         sprache: "de"
     },
     {
