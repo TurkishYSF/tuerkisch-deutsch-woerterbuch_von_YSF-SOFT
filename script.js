@@ -1,5 +1,30 @@
 var datas = [
     {
+        titel: "abändern",
+        untertitel: "ab|ändern, ('apˌʔɛndɐn), transitives Verb, haben abgeändert",
+        bedeutungen: "değiştirmek",
+        beispiele: "Ich <span class='vurgu'>ändere</span> den Rock <span class='vurgu'>ab</span>, wenn er dir nicht gefällt.",
+        sprache: "de"
+    },
+    {
+        titel: "acht",
+        untertitel: "(axt), Zahlwort",
+        bedeutungen: "sekiz",
+        sprache: "de"
+    },
+    {
+        titel: "achtzehn",
+        untertitel: "('axt͡se:n), Zahlwort",
+        bedeutungen: "on sekiz",
+        sprache: "de"
+    },
+    {
+        titel: "achtzig",
+        untertitel: "('axt͡sɪç), Zahlwort",
+        bedeutungen: "seksen",
+        sprache: "de"
+    },
+    {
         titel: "das Aas",
         untertitel: "(a:s), Substantiv, Neutrum, -e/Äser",
         bedeutungen: "leş",
@@ -22,6 +47,12 @@ var datas = [
         titel: "das Buch",
         untertitel: "(bu:x), Substantiv, Neutrum, Bücher",
         bedeutungen: "kitap, betik",
+        sprache: "de"
+    },
+    {
+        titel: "das Deutsch",
+        untertitel: "(dɔɪ̯t͡ʃ), Neutrum",
+        bedeutungen: "Almanca",
         sprache: "de"
     },
     {
@@ -133,6 +164,13 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "der Schüler",
+        untertitel: "('ʃy:lɐ), Substantiv, männlich",
+        bedeutungen: "öğrenci",
+        beispiele: "Er hat als <span class='vurgu'>Schüler</span> sehr viel Musik gemacht. (O <span class='vurgu'>öğrenciyken</span> çok fazla müzik yaptı.)",
+        sprache: "de"
+    },
+    {
         titel: "der Waldbrand",
         untertitel: "(ˈvaltˌbʁant), Substantiv, männlich, Waldbrände",
         bedeutungen: "orman yangını",
@@ -166,9 +204,21 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "die Bohne",
+        untertitel: "('bo:nə), Substantiv, weiblich",
+        bedeutungen: "fasulye",
+        sprache: "de"
+    },
+    {
         titel: "die Erosion",
         untertitel: "(eʁoˌzi̯o:n), Substantiv, -en",
         bedeutungen: "erozyon",
+        sprache: "de"
+    },
+    {
+        titel: "die Fremdsprache",
+        untertitel: "('fʁɛmtˌʃpʁa:xə), Substantiv, -en, von fremd und Sprache",
+        bedeutungen: "yabancı dil",
         sprache: "de"
     },
     {
@@ -192,6 +242,13 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "die Schülerin",
+        untertitel: "(ˈʃyːləʁɪn), weiblich, -nen, von Schüler",
+        bedeutungen: "öğrenci",
+        beispiele: "Als <span class='vurgu'>Schülerin</span> hat sie viel Musik gemacht. (O <span class='vurgu'>öğrenciyken</span> çok müzik yaptı)",
+        sprache: "de"
+    },
+    {
         titel: "die Sprache",
         untertitel: "('ʃpʁa:xə), Substantiv, weiblich, -n",
         bedeutungen: "dil",
@@ -199,22 +256,39 @@ var datas = [
     },
     {
         titel: "die Türkei",
-        untertitel: "(tʏʁˈkaɪ̯), Substantiv, weiblich",
+        untertitel: "(tʏʁ'kaɪ̯), Substantiv, weiblich",
         bedeutungen: "Türkiye",
         beispiele: "Ich komme aus <span class='vurgu'>der Türkei</span>. (Ben <span class='vurgu'>Türkiye</span>'den gelirim.)",
         sprache: "de"
     },
     {
-        titel: "abändern",
-        untertitel: "ab|ändern, (ˈapˌʔɛndɐn), transitives Verb, haben abgeändert",
-        bedeutungen: "değiştirmek",
-        beispiele: "Ich <span class='vurgu'>ändere</span> den Rock <span class='vurgu'>ab</span>, wenn er dir nicht gefällt.",
+        titel: "drei",
+        untertitel: "(dʁaɪ̯), Zahlwort",
+        bedeutungen: "üç",
+        sprache: "de"
+    },
+    {
+        titel: "dreißig",
+        untertitel: "('dʁaɪ̯sɪç), Zahlwort",
+        bedeutungen: "otuz",
+        sprache: "de"
+    },
+    {
+        titel: "dreizehn",
+        untertitel: "('dʁaɪ̯t͡se:n), Zahlwort",
+        bedeutungen: "on üç",
         sprache: "de"
     },
     {
         titel: "du",
         untertitel: "Pronomen",
         bedeutungen: "sen",
+        sprache: "de"
+    },
+    {
+        titel: "eins",
+        untertitel: "(aɪ̯ns), Zahlwort",
+        bedeutungen: "bir",
         sprache: "de"
     },
     {
@@ -230,6 +304,31 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "fremd",
+        untertitel: "(fʁɛmt), Adjektiv, fremder, fremdesten",
+        bedeutungen: "yabancı, yad; bilinmeyen",
+        beispiele: "Er ist <span class='vurgu'>fremd</span> in der Stadt. (O kentte <span class='vurgu'>yabancı</span>.)",
+        sprache: "de"
+    },
+    {
+        titel: "fünf",
+        untertitel: "(fʏnf), Zahlwort",
+        bedeutungen: "beş",
+        sprache: "de"
+    },
+    {
+        titel: "fünfzehn",
+        untertitel: "('fʏnft͡se:n), Zahlwort",
+        bedeutungen: "on beş",
+        sprache: "de"
+    },
+    {
+        titel: "fünfzig",
+        untertitel: "('fʏnft͡sɪç), Zahlwort",
+        bedeutungen: "elli",
+        sprache: "de"
+    },
+    {
         titel: "ich",
         untertitel: "(ɪç), Pronomen",
         bedeutungen: "ben [Pronomen]",
@@ -239,6 +338,37 @@ var datas = [
         titel: "ja",
         untertitel: "(ja:)",
         bedeutungen: "evet",
+        sprache: "de"
+    },
+    {
+        titel: "neun",
+        untertitel: "(nɔɪ̯n), Zahlwort",
+        bedeutungen: "dokuz",
+        sprache: "de"
+    },
+    {
+        titel: "neunzehn",
+        untertitel: "('nɔɪ̯nt͡se:n), Zahlwort",
+        bedeutungen: "on dokuz",
+        sprache: "de"
+    },
+    {
+        titel: "neunzig",
+        untertitel: "('nɔɪ̯nt͡sɪç), Zahlwort",
+        bedeutungen: "doksan",
+        sprache: "de"
+    },
+    {
+        titel: "oh",
+        untertitel: "(o:), Interjektion",
+        bedeutungen: "o [Interjektion]",
+        beispiele: "<span class='vurgu'>Oh</span>, wie schön! (<span class='vurgu'>O</span>, ne güzel!)",
+        sprache: "de"
+    },
+    {
+        titel: "öffnen",
+        untertitel: "('œfnən), Verb",
+        bedeutungen: "açmak",
         sprache: "de"
     },
     {
@@ -254,14 +384,45 @@ var datas = [
         sprache: "de"
     },
     {
+        titel: "sechs",
+        untertitel: "(zɛks), Zahlwort",
+        bedeutungen: "altı",
+        sprache: "de"
+    },
+    {
+        titel: "sechzehn",
+        untertitel: "('zɛçt͡se:n), Zahlwort",
+        bedeutungen: "on altı",
+        sprache: "de"
+    },
+    {
+        titel: "sechzig",
+        untertitel: "('zɛçt͡sɪç), Zahlwort",
+        bedeutungen: "altmış",
+        sprache: "de"
+    },
+    {
+        titel: "sein",
+        untertitel: "(zaɪ̯n), Verb",
+        bedeutungen: "olmak",
+        beispiele: "Wer <span class='vurgu'>sind</span> Sie? (<span class='vurgu'>Kimsiniz</span>?)",
+        sprache: "de"
+    },
+    {
         titel: "sie",
         untertitel: "(zi:), Pronomen",
         bedeutungen: "o [Pronomen]",
         sprache: "de"
     },
     {
+        titel: "sieben",
+        untertitel: "('zi:bn̩), Zahlwort",
+        bedeutungen: "yedi",
+        sprache: "de"
+    },
+    {
         titel: "schreiben",
-        untertitel: "(ˈʃʁaɪ̯bn̩), Verb, haben geschrieben",
+        untertitel: "('ʃʁaɪ̯bn̩), Verb, haben geschrieben",
         bedeutungen: "yazmak",
         sprache: "de"
     },
@@ -269,6 +430,54 @@ var datas = [
         titel: "verbrauchen",
         untertitel: "(fɛɐ̯'bʁaʊ̯xn̩), Verb",
         bedeutungen: "tüketmek",
+        sprache: "de"
+    },
+    {
+        titel: "vier",
+        untertitel: "(fi:ɐ̯), Zahlwort",
+        bedeutungen: "dört",
+        sprache: "de"
+    },
+    {
+        titel: "vierzehn",
+        untertitel: "(ˈfɪʁt͡seːn), Zahlwort",
+        bedeutungen: "on dört",
+        sprache: "de"
+    },
+    {
+        titel: "vierzig",
+        untertitel: "('fɪʁt͡sɪç), Zahlwort",
+        bedeutungen: "kırk",
+        sprache: "de"
+    },
+    {
+        titel: "zehn",
+        untertitel: "(t͡se:n), Zahlwort",
+        bedeutungen: "on",
+        sprache: "de"
+    },
+    {
+        titel: "hundert",
+        untertitel: "('hʊndɐt), Zahlwort",
+        bedeutungen: "yüz [Zahlwort]",
+        sprache: "de"
+    },
+    {
+        titel: "zwanzig",
+        untertitel: "('t͡svant͡sɪç), Zahlwort",
+        bedeutungen: "yirmi",
+        sprache: "de"
+    },
+    {
+        titel: "zwei",
+        untertitel: "(t͡svaɪ̯), Zahlwort",
+        bedeutungen: "iki",
+        sprache: "de"
+    },
+    {
+        titel: "zwölf",
+        untertitel: "(t͡svœlf), Zahlwort",
+        bedeutungen: "on iki",
         sprache: "de"
     },
 
@@ -300,6 +509,18 @@ var datas = [
         untertitel: "(aɫfabe), Substantiv, von französisch alphabet",
         bedeutungen: "das Abc, das Alphabet",
         beispiele: "Türkçe latin <span class='vurgu'>alfabesini</span> kullanır.",
+        sprache: "tr"
+    },
+    {
+        titel: "atık",
+        untertitel: "Substantiv, -ğı",
+        bedeutungen: "der Abfall, der Müll",
+        sprache: "tr"
+    },
+    {
+        titel: "atık kâğıt",
+        untertitel: "Substantiv, -dı",
+        bedeutungen: "das Altpapier",
         sprache: "tr"
     },
     {
@@ -399,6 +620,19 @@ var datas = [
         titel: "ocak",
         untertitel: "Substantiv, -ğı",
         bedeutungen: "1. der Herd, der Kocher; 2. der Dezember",
+        sprache: "tr"
+    },
+    {
+        titel: "öğrenci",
+        untertitel: "Substantiv",
+        bedeutungen: "Schüler(in), Student(in)",
+        beispiele: "O <span class='vurgu'>öğrenciyken</span> çok fazla müzik yaptı. (Er/sie hat als <span class='vurgu'>Schüler(in)</span> sehr viel Musik gemacht.)",
+        sprache: "tr"
+    },
+    {
+        titel: "öğrenmek",
+        untertitel: "Verb",
+        bedeutungen: "[-i] (er)lernen; [-i -den] erfahren",
         sprache: "tr"
     },
     {
